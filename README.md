@@ -1,5 +1,5 @@
 # qa_guru_python_9_5
-Автотест на заполнение и отправку формы https://demoqa.com/automation-practice-form
+Автотест на заполнение и отправку и проверку формы регистрации студентов https://demoqa.com/automation-practice-form 
 
 Условия:
 - Библиотеки, разрешенные к использованию: pytest, selene.
