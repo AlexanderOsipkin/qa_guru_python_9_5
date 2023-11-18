@@ -24,7 +24,7 @@ def test_registration():
     browser.element('#currentAddress').should(be.blank).type('Saint-Petersburg, Pushkin street 42')
     browser.element('#react-select-3-input').type('Uttar Pradesh').press_enter()
     browser.element('#react-select-4-input').type('Agra').press_enter()
-    browser.element('#submit').click()
+    browser.element('#submit').press_enter()
 
     browser.element('.modal-header').should(have.text('Thanks for submitting the form'))
     browser.element('.table').should(have.text(
@@ -39,4 +39,4 @@ def test_registration():
         'Saint-Petersburg, Pushkin street 42' and
         'Uttar Pradesh Agra'
     ))
-    browser.element('#closeLargeModal').click()
+    browser.element('#closeLargeModal').press_enter()
