@@ -39,4 +39,5 @@ def test_registration():
         'Saint-Petersburg, Pushkin street 42' and
         'Uttar Pradesh Agra'
     ))
+
     browser.element('#closeLargeModal').press_enter()
